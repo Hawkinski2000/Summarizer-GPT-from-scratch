@@ -1,2 +1,2 @@
-# Summarizer-GPT-from-scratch
-A text summarization transformer using a modified version of [Andrej Karpathy's reproduction of the GPT-2 (124M) model](https://github.com/karpathy/build-nanogpt 'build-nanogpt'). This version adds an encoder and Cross-Attention for Sequence-to-Sequence translation of articles to summaries.
+# BERT-from-Scratch
+A recreation of Google’s BERT model from scratch using a modified version of [Andrej Karpathy's reproduction of the GPT-2 (124M) model](https://github.com/karpathy/build-nanogpt 'build-nanogpt'). Currently the model is implemented as a sentiment analyzer for Tweets from the Sentiment140 dataset. 80%+ test accuracy was achieved on about 2,300 Tweets from the mteb/tweet_sentiment_extraction dataset.
